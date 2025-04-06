@@ -2,7 +2,7 @@
   "frames": [
     {
       "frame_id": "start",
-      "image": "https://yourdomain.com/handshake.png",
+      "image": "https://raw.githubusercontent.com/vkaroo/foll2foll/main/handshake.png",
       "text": "Let's Support Each Other!",
       "buttons": [
         {
@@ -14,7 +14,7 @@
     },
     {
       "frame_id": "follow_and_share",
-      "image": "https://yourdomain.com/handshake.png",
+      "image": "https://raw.githubusercontent.com/vkaroo/foll2foll/main/handshake.png",
       "text": "Follow & Share for Mutual Growth!",
       "buttons": [
         {
