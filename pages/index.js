@@ -1,8 +1,26 @@
+
+import Head from "next/head";
+
 export default function Home() {
   return (
-    <div>
-      <h1>Follow2Follow Frame</h1>
-      <p>Coming Soon!</p>
-    </div>
-  )
+    <>
+      <Head>
+        <title>Foll2Foll</title>
+        <meta property="og:title" content="Foll2Foll - Let's Follow Each Other!" />
+        <meta property="og:description" content="Join the Foll2Foll movement!" />
+        <meta property="og:image" content="https://raw.githubusercontent.com/vkaroo/foll2foll/main/handshake.png" />
+        
+        <meta property="fc:frame:creator" content="302592" />
+        <meta property="fc:frame:image" content="https://raw.githubusercontent.com/vkaroo/foll2foll/main/handshake.png" />
+        
+        <meta property="fc:frame:button:1" content="Follow Me" />
+        
+        <meta property="fc:frame:post_url" content="https://warpcast.com/~/profile/302592" />
+      </Head>
+
+      <main>
+        <h1>Welcome to Foll2Foll!</h1>
+      </main>
+    </>
+  );
 }
