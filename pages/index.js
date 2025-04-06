@@ -15,8 +15,8 @@ export default function Home() {
 
         <meta name="fc:frame:button:1" content="Follow Me" />
         <meta name="fc:frame:button:2" content="Share" />
-        
-        <meta name="fc:frame:post_url" content="https://warpcast.com/~/profile/302592" />
+
+        <meta name="fc:frame:button:1:post_url" content="https://warpcast.com/~/profile/302592" />
         <meta name="fc:frame:button:2:action" content="share" />
       </Head>
 
