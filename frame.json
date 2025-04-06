@@ -1,0 +1,32 @@
+{
+  "frames": [
+    {
+      "frame_id": "start",
+      "image": "https://yourdomain.com/handshake.png",
+      "text": "Let's Support Each Other!",
+      "buttons": [
+        {
+          "label": "Follow2Follow",
+          "action": "post",
+          "target_frame": "follow_and_share"
+        }
+      ]
+    },
+    {
+      "frame_id": "follow_and_share",
+      "image": "https://yourdomain.com/handshake.png",
+      "text": "Follow & Share for Mutual Growth!",
+      "buttons": [
+        {
+          "label": "Add @xfile29.eth",
+          "action": "follow",
+          "target_user": "xfile29.eth"
+        },
+        {
+          "label": "Share Frame",
+          "action": "recast"
+        }
+      ]
+    }
+  ]
+}
